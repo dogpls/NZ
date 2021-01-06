@@ -68,6 +68,8 @@
 body {
   background: #000;
   font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+
 }
 
 h1 {
