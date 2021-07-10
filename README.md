@@ -1,1 +1,1 @@
-# Website for a friend, used for practing my webdesign
+# Website for a friend, used for practicing my webdesign
