@@ -1,19 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+TODO: Finishing touches
+-->
 <html>
-<head>
-  <title>Niusha Z</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/starfield.css" />
-  <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
-</head>
-<body>
-<h1>niusha</h1>
-<h2>gomeza was here</h2>
-<div id="space">
-  <div class="stars"></div>
-  <div class="stars"></div>
-  <div class="stars"></div>
-  <div class="stars"></div>
-  <div class="stars"></div>
-</div>
-</body>
+	<head>
+		<title>Niusha Z.</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" type= "text/css" href="assets/css/main.css">
+		<link href="/images/favicon.ico" rel="shortcut icon">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Niusha</h1>
+						<p>Law&nbsp;&bull;&nbsp; Coffee&nbsp;&bull;&nbsp; Never asked for this</p>
+						<nav>
+							<ul>
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+				<!--
+					<footer id="footer">
+						<span class="copyright">&copy; NiushaZ. Design: <a href="">GomeZzz</a>.</span>
+					</footer>
+					-->
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
