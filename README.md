@@ -1,1 +1,1 @@
-# Experimental/Test Website for a friend
+# Experimental, Testing Website for a friend
