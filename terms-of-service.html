@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zand Law - Terms of Use</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background: #003366;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+
+      main {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      .accordion-button {
+        width: 100%;
+        background: #003366;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      .accordion-content {
+        display: none;
+        padding: 10px;
+        background: #e3e3e3;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Zand Law - Terms of Use</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Welcome to Zand Law</h2>
+        <p>
+          By accessing this website, you agree to the following terms. Please
+          read them carefully.
+        </p>
+      </section>
+
+      <section class="accordion">
+        <button class="accordion-button">1. Use of Website</button>
+        <div class="accordion-content">
+          <p>
+            This website provides information but does not constitute legal
+            advice. Any reliance on the information is at your own risk.
+          </p>
+        </div>
+
+        <button class="accordion-button">2. Intellectual Property</button>
+        <div class="accordion-content">
+          <p>
+            All content on this website, including text, graphics, and logos, is
+            the property of Zand Law. Unauthorized use is prohibited.
+          </p>
+        </div>
+
+        <button class="accordion-button">3. Limitation of Liability</button>
+        <div class="accordion-content">
+          <p>
+            Zand Law is not liable for any damages resulting from the use of
+            this website.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script>
+      document.querySelectorAll(".accordion-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const content = button.nextElementSibling;
+          content.style.display =
+            content.style.display === "block" ? "none" : "block";
+        });
+      });
+    </script>
+  </body>
+</html>
