@@ -1760,10 +1760,11 @@ body.is-preload #header .content .inner {
 .private-policy,
 .terms-of-service {
 	letter-spacing: 0.2rem;
-	font-size: 0.75rem;
+	font-size: .85rem;
 	opacity: 0.75;
 	margin-bottom: 0;
 	text-transform: uppercase;
+	padding: 0.5rem 0;
 }
 
 body.is-article-visible #footer {
